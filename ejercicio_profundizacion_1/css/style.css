@@ -1,0 +1,86 @@
+*{
+ box-sizing: border-box;   
+}
+section{
+ 
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:15px;
+    
+}
+section div {
+
+width: 200px;
+background-color: aqua;
+font-size:40px ;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.uno{
+    height: 200px;
+    order:1;
+    flex-shrink: 6;
+    
+    
+}
+.dos{
+    height: 200px;
+    order: 2;
+    flex-shrink: 6;
+    
+}
+
+.tres{
+    height: 200px;
+    order: 3;
+    flex-shrink: 6;
+    
+}
+.cuatro{
+    height: 200px;
+    order: 4;
+    flex-shrink: 6;
+    
+}
+.cinco{
+    height: 200px;
+    order: 5;
+    flex-shrink: 6;
+    
+}
+.seis{
+    height: 200px;
+    order: 6;
+    flex-shrink: 6;
+    
+}
+.siete{
+    height: 200px;
+    order: 7;
+    flex-shrink: 6;
+    
+}
+.ocho{
+    height: 200px;
+    order: 8;
+    flex-shrink: 6;
+  
+}
+.nueve{
+    height: 200px;
+    order: 9;
+    flex-shrink: 6;
+    
+}
+.diez{
+    height: 200px;
+    order: 10;
+    flex-shrink: 6;
+    
+}
